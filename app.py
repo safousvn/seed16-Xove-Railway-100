@@ -34,4 +34,4 @@ def run_load_test(concurrency=50, rounds=5000):
     print(f"✅ Load test complete. Total tokens: {total_tokens:,}")
 
 if __name__ == "__main__":
-    run_load_test(concurrency=20, rounds=2000)
+    run_load_test(concurrency=50, rounds=5000)
